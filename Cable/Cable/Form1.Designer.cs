@@ -159,7 +159,7 @@
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(12, 366);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(299, 212);
+            this.groupBox2.Size = new System.Drawing.Size(299, 182);
             this.groupBox2.TabIndex = 10;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Cable Variables";
@@ -179,7 +179,7 @@
             // 
             this.textBox13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox13.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox13.Location = new System.Drawing.Point(242, 183);
+            this.textBox13.Location = new System.Drawing.Point(230, 147);
             this.textBox13.Name = "textBox13";
             this.textBox13.Size = new System.Drawing.Size(36, 20);
             this.textBox13.TabIndex = 12;
@@ -252,7 +252,7 @@
             // 
             this.textBoxW.Enabled = false;
             this.textBoxW.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxW.Location = new System.Drawing.Point(100, 183);
+            this.textBoxW.Location = new System.Drawing.Point(100, 146);
             this.textBoxW.Name = "textBoxW";
             this.textBoxW.Size = new System.Drawing.Size(32, 20);
             this.textBoxW.TabIndex = 2;
@@ -260,7 +260,7 @@
             // 
             // textBox_W
             // 
-            this.textBox_W.Location = new System.Drawing.Point(140, 183);
+            this.textBox_W.Location = new System.Drawing.Point(140, 146);
             this.textBox_W.Name = "textBox_W";
             this.textBox_W.Size = new System.Drawing.Size(84, 20);
             this.textBox_W.TabIndex = 0;
@@ -283,7 +283,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(6, 183);
+            this.button3.Location = new System.Drawing.Point(6, 143);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(53, 23);
             this.button3.TabIndex = 9;
@@ -387,7 +387,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Cable.Properties.Resources.Capture11;
-            this.ClientSize = new System.Drawing.Size(744, 601);
+            this.ClientSize = new System.Drawing.Size(744, 556);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.button1);

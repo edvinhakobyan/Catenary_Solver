@@ -3,15 +3,18 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Design;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using System.Windows.Forms.DataVisualization.Charting;
 
 namespace Cable
 {
     public partial class Form1 : Form
     {
         List<CheckBox> chck;
+        Catenary_Graph graph;
         public Form1()
         {
             InitializeComponent();
@@ -95,6 +98,9 @@ namespace Cable
                 textBox5.Text = $"Ty := {Ty:#.####}";
                 textBox6.Text = $"T := {T:#.####}";
                 textBox7.Text = $"alfa := {alfa:#.####}";
+
+                graph = new Catenary_Graph(c, x);
+                graph.Show();
             }
             else if(checkBox_Y.Checked && checkBox_X.Checked)
             {
@@ -216,7 +222,18 @@ namespace Cable
                 textBox5.Text = $"T0 := {T0:#.####}";
                 textBox6.Text = $"Ty := {Ty:#.####}";
                 textBox7.Text = $"alfa := {alfa:#.####}";
+
+                graph = new Catenary_Graph(c, x);
+                graph.Show();
             }
+
+
+
+
+            
+
+
+
         }
 
 
